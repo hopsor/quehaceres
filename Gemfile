@@ -45,6 +45,6 @@ gem 'spring',        group: :development
 
 
 gem "active_model_serializers"
-gem "ember-rails", "~>0.14"
-gem "ember-source", "~>1.1"
+gem "ember-rails"
+gem "ember-source", '1.4.0'
 gem 'emblem-rails'
