@@ -1,0 +1,3 @@
+= each todo in controller
+  h2= todo.title
+  | {{{todo.description}}} 
