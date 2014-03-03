@@ -2,3 +2,5 @@
 
 Quehaceres.Router.map ()->
   @resource('todos')
+  @resource('about')
+  

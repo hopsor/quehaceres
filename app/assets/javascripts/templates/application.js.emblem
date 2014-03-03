@@ -1,0 +1,12 @@
+.navbar.navbar-default
+  .container
+    .navbar-header
+      a.navbar-brand href="#" Quehaceres
+
+    .collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li = link-to 'todos' | Todos
+        li = link-to 'about' | About
+
+div.container
+  = outlet
